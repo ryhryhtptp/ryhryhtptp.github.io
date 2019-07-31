@@ -504,7 +504,13 @@ footer {
     font-family: 'Poppins',
     sans-serif;
 }
+.navbar-mobile {
+    display: none;
+}
 @media screen and (max-width:768px){
+    .navbar-mobile {
+        display: block;
+    }
     .comments_do {
         display: flex;
         justify-content: center;
